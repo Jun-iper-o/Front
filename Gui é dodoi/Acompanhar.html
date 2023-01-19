@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Acompanhar.css">
+    <title>Carrinho</title>
+</head>
+
+<body>
+    <header>
+        <section>
+            <section id="logo-header">
+                <h1><a href="#"><img src="./image/logo.svg" alt="logo-gordon-store" id="logo"></a></h1>
+            </section>
+            <section id="links-header">
+                <nav>
+                    <ul>
+                        <li><a href="#">JOGOS</a></li>
+                        <li><a href="#">HQS</a></li>
+                        <li><a href="#">ESTUDIOS</a></li>
+                    </ul>
+                </nav>
+            </section>
+            <section id="lista-itens-header">
+                <nav>
+                    <ul>
+                        <li><a href="javascript:abrir('PopUpSearch')"><img src="./image/search.svg" alt="pesquisar"
+                                    class="itens-header1"></a></li>
+                        <li><a href="javascript:abrir('PopUpCart')"><img src="./image/cart.svg" alt="carrinho"
+                                    class="itens-header"></a></li>
+                        <li><a href="javascript:abrir('PopUpUsuario')"><img src="./image/profile.svg" alt="perfil"
+                                    class="itens-header"></a></li>
+                        <li><a href="javascript:abrir('PopUpUsuario')"><img src="./image/arrow.svg" alt="seta"
+                                    class="itens-header2"></a></li>
+                    </ul>
+                </nav>
+            </section>
+        </section>
+        <div id="PopUpUsuario">
+            <ul>
+                <li><a href="#"><img src="./image/SignIn.png" alt="">ENTRAR</a></li>
+                <li><a href="#"><img src="./image/UserCirclePlus.png" alt="">CRIAR CONTA</a></li>
+                <li><a href="#"><img src="./image/Question.png" alt="">AJUDA</a></li>
+            </ul>
+        </div>
+        <div id="PopUpSearch">
+            <form>
+                <input type="text" method="get" placeholder="O que está procurando?">
+                <button type="submit">
+                    <img src="./image/search-purple.png" alt="lupa">
+                </button>
+            </form>
+        </div>
+        <div id="PopUpCart">
+            <div id="header-cart">
+                <a href="javascript:abrir('PopUpCart')">
+                    <img src="./image/back-white.png" alt="" id="cartback">
+                </a>
+                <h3>Minha cesta</h3>
+                <div id="cart-img">
+                    <img src="./image/cart.svg" alt="">
+                    <div id="cart-indicator">
+                        <div>
+                            <p>1</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="Dados">
+            <h1>CÓDIGO DO PEDIDO #131313</h1>
+            <p> Dados do remetente</p>
+            <p> Júlia Fernanda Lemos Bezerra</p>
+            <p> Rua Comic sans, 2345 - Tirol - Natal - RN</p>
+            <p> 12345-67</p>
+        </section>
+        <section class="meta">
+            <ul>
+                <div class="item">
+                    <div class="line" id="one"></div>
+                    <img src="image/Group 55.svg" alt="" id="">
+                    <p>Pedido confirmado</p>
+                    <a>25/06/22 - 14:56</a>
+                </div>
+                <div class="item">
+                    <div class="line" id="two"></div>
+                    <img src="image/Group 56.svg" alt="" id="">
+                    <p>Pagamento confirmado</p>
+                    <a>25/06/22 - 15:36 <br> R$ 119,00</a>
+                </div>
+                <div class="item">
+                    <div class="line" id="three"></div>
+                    <img src="image/Group 57.svg" alt="" id="">
+                    <p>Preparando envio</p>
+                </div>
+                <div class="item">
+                    <div class="line" id="four"></div>
+                    <img src="image/Group 58.svg" alt="" id="">
+                    <p>Enviado</p>
+                </div>
+                <div class="item">
+                    <div class="final">
+                        <div class="line" id="five"></div>
+                        <img src="image/Group 59.svg" alt="" id="">
+                        <p>Avaliar</p>
+                    </div>
+                </div>
+            </ul>
+        </section>
+        <section class="Confirm">
+            <h2>Histórico</h2>
+            <p>Pedido Confirmado - 25/06/22</p>
+            <p>Pagamento Confirmado - 25/06/22</p>
+        </section>
+    </main>
+    <nav class="Box">
+        <div href="#" class="button">
+            <a>ALGUMA DÚVIDA? FALE <br> CONOSCO </a><img src="image/WhatsappLogo.svg" alt="" id="">
+        </div>
+    </nav>
+</body>
+
+</html>

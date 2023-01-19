@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Roboto:wght@400;700&display=swap');
+
+@font-face {
+    font-family: BatmanForeverAlternate;
+    src: url(./fonts/BatmanForeverAlternate.ttf);
+}
+
+@font-face {
+    font-family: adineue PRO;
+    src: url(./fonts/adineue\ PRO.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: #2E0F46;
+    padding: 0.8em 1em 0.8em 1em;
+    position: relative;
+}
+
+header section:first-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    height: 45px;
+    margin: auto;
+}
+
+header section ul {
+    list-style: none;
+    display: flex;
+}
+
+header section ul li a {
+    color: white;
+    display: flex;
+    align-items: center;
+    font-family: 'BatmanForeverAlternate', sans-serif;
+    ;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+#logo-header {
+    margin: 0;
+    width: 24%;
+}
+
+#logo {
+    width: 100px;
+    height: 40px;
+}
+
+#links-header {
+    width: 66%;
+}
+
+#links-header ul {
+    justify-content: center;
+}
+
+#links-header ul li a {
+    padding: 1em;
+}
+
+#lista-itens-header {
+    width: 24%;
+}
+
+.itens-header {
+    width: 35px;
+    height: 35px;
+}
+
+.itens-header1 {
+    width: 29px;
+    height: 29px;
+}
+
+.itens-header2 {
+    height: 11px;
+    width: 19px;
+}
+
+#lista-itens-header ul {
+    justify-content: space-between;
+    align-items: center;
+}
+
+#lista-itens-header ul li a {
+    padding: 0 0.5em 0 0.5em;
+}
+
+#PopUpUsuario {
+    display: none;
+    position: absolute;
+    background-color: #2E0F46;
+    box-shadow: 0px 2px 19px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    color: #FFFFFF;
+    right: 150px;
+    top: 80px;
+    border: 1px solid white;
+
+}
+
+#PopUpUsuario ul {
+    margin: 0.8em;
+    display: flex;
+    align-items: flex-start;
+    list-style: none;
+    flex-direction: column;
+}
+
+#PopUpUsuario ul li:last-child {
+    width: 100%;
+    border-top: 1px solid #FFFFFF;
+}
+
+#PopUpUsuario ul li a {
+    font-family: 'BatmanForeverAlternate', sans-serif;
+    margin-bottom: 8px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+#PopUpUsuario ul li a img {
+    margin-right: 15px;
+}
+
+#PopUpUsuario>ul>li:nth-child(2)>a {
+    margin-bottom: 25px;
+}
+
+#PopUpUsuario ul li:last-child a {
+    padding-top: 8px;
+}
+
+#PopUpSearch {
+    width: 695px;
+    top: 20px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: none;
+    position: absolute;
+
+}
+
+#PopUpSearch>form {
+    display: flex;
+    justify-content: space-between;
+    height: 35px;
+    align-items: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding: 0.25em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+#PopUpSearch input,
+#PopUpSearch input::placeholder,
+#PopUpSearch input:focus,
+#PopUpSearch textarea:focus {
+    font-family: 'adineue PRO';
+    width: 90%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    color: #2E0F46;
+    border: none;
+}
+
+#PopUpSearch form button {
+    border: none;
+    background: none;
+}
+
+#PopUpSearch form button img {
+    cursor: pointer;
+    height: 18px;
+    width: 18px;
+}
+
+
+#PopUpCart {
+    position: absolute;
+    right: 154px;
+    top: 80px;
+    width: 400px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    display: none;
+}
+/* fim do cabeçalho*/
+p{
+    font-family: 'adineue PRO';
+    font-size: 20px;
+    color:#372F3D;
+}
+a{
+    font-family: 'adineue PRO';
+    font-size: 15px;
+    color:#372F3D;
+}
+h2{
+    font-family: 'adineue PRO';
+    font-size: 22px;
+    font-weight: 400;
+    color:#2E0F46;
+}
+main .Dados h1{
+    font-family: 'adineue PRO';
+    font-size: 40px;
+    font-weight: 600;
+    margin: 2em 2em 0.5em;
+    color:#180824;
+
+}
+
+main .Dados p{
+    padding-left: 4em;
+
+}
+
+section.meta ul{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 4em;
+}
+
+
+#one {
+    margin-left: 16em;
+
+}
+#two {
+    margin-left: 16em;
+
+}
+#three {
+    margin-left: 16em;
+}
+#four {
+    margin-left: 16em;
+}
+
+.line {
+    background-color: #2E0F46;
+    height: 8px;
+    width: 100px;
+    z-index: -1;
+    margin-top: 60px;
+    margin-bottom: -80px;
+}
+.item{
+    margin-left: -6.2em;
+}
+.item .final{
+    margin-left: 6.2em;
+}
+section.Confirm{
+    margin: 6em 15em 0.5em;
+    
+}
+
+
+.button a{
+    font-family: 'adineue PRO';
+
+    font-size: 15px;
+    text-decoration: none;
+    color: #fff;
+
+  }
+.button{
+    display: flex;
+    background-color: #2E0F46;
+    padding: 30px 2em 15px 3em;
+    border-radius: 5px 0px 0px 30px;
+
+}
+.button img{
+    width: 3em;
+    margin-left: 3em; 
+}
+
+nav.Box{
+    float: right;
+    margin-bottom: 4em;
+}

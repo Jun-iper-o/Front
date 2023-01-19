@@ -1,0 +1,14 @@
+<svg width="160" height="160" viewBox="0 0 160 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="80" cy="80" r="77" fill="url(#paint0_angular_801_226)" stroke="#2E0F46" stroke-width="6"/>
+<path d="M107 63.5H47C45.6193 63.5 44.5 64.6193 44.5 66V106C44.5 107.381 45.6193 108.5 47 108.5H107C108.381 108.5 109.5 107.381 109.5 106V66C109.5 64.6193 108.381 63.5 107 63.5Z" stroke="#2E0F46" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M88.25 97.25H98.25" stroke="#2E0F46" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M70.75 97.25H75.75" stroke="#2E0F46" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M44.5 76.2812H109.5" stroke="#2E0F46" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<defs>
+<radialGradient id="paint0_angular_801_226" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(80 80) rotate(90) scale(80)">
+<stop stop-color="#2E0F46" stop-opacity="0.39"/>
+<stop offset="0.5" stop-color="#2E0F46" stop-opacity="0.195"/>
+<stop offset="1" stop-color="white" stop-opacity="0.42"/>
+</radialGradient>
+</defs>
+</svg>
